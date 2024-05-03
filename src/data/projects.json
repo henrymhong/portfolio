@@ -1,0 +1,19 @@
+{
+    "projects": [
+        {
+            "title": "Title 1",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet nisl suscipit adipiscing bibendum est ultricies. Nibh praesent tristique magna sit amet purus gravida.",
+            "tools": ["Javascript", "React"]
+        },
+        {
+            "title": "Title 2",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet nisl suscipit adipiscing bibendum est ultricies. Nibh praesent tristique magna sit amet purus gravida.",
+            "tools": ["TypeScript", "Vue"]
+        },
+        {
+            "title": "Title 2",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet nisl suscipit adipiscing bibendum est ultricies. Nibh praesent tristique magna sit amet purus gravida.",
+            "tools": ["HTML", "Next.js"]
+        }
+    ]
+}
