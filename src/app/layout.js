@@ -20,16 +20,14 @@ export const metadata = {
     description: "Henry's portfolio.",
 };
 
-export const viewport = {
-    width: "device-width",
-    initialScale: 1,
-};
-
 export default function RootLayout({ children }) {
     return (
         <html lang="en">
             <body
-                className={`${inter.variable} ${chakra.variable} ${fira.variable}`}
+                className={
+                    `${inter.variable} ${chakra.variable} ${fira.variable}` +
+                    " bg-black"
+                }
             >
                 {children}
             </body>
