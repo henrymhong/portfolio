@@ -18,7 +18,11 @@ const fira = Fira_Code({
 export const metadata = {
     title: "Henry Hong",
     description: "Henry's portfolio.",
-    viewport: "width=device-width, initial-scale=1.0, viewport-fit=cover",
+};
+
+export const viewport = {
+    width: "device-width",
+    initialScale: 1,
 };
 
 export default function RootLayout({ children }) {
