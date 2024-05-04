@@ -46,7 +46,7 @@ export default function Home() {
                     </div>
                 </div>
                 {/* PFP for smaller than LG breakpoint*/}
-                <div className="lg:hidden sm:flex justify-center items-center flex-grow mr-8 md:mr-14 pt-8 animate-slideUpOut sm:animate-slideDown">
+                <div className="w-0 lg:hidden sm:flex justify-center items-center flex-grow sm:mr-8 md:mr-14 pt-8 animate-slideUpOut sm:animate-slideDown">
                     <div>
                         <Image
                             className="rounded-full shadow-2xl border-2 border-white size-40"
@@ -63,6 +63,13 @@ export default function Home() {
                 <div className="flex flex-col px-8 md:px-14 lg:px-0 lg:pr-20 pt-5 lg:pt-16 lg:max-w-xl text-slate-100 font-inter text-2xl animate-slideLeft lg:animate-slideDown">
                     <div className="">
                         Projects<div></div>
+                    </div>
+                    <div className="text-sm border-2 rounded-xl p-2 my-3 bg-gradient-to-tl from-slate-900 to-black">
+                        <div className="border-b-2 border-gray-500">Title</div>
+                        <div className="border-b-2 border-gray-500">
+                            Description
+                        </div>
+                        <div>Tools</div>
                     </div>
                     <div className="">About</div>
                     <div className="text-sm text-gray-400 pt-5">

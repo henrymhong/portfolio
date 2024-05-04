@@ -16,8 +16,8 @@ const fira = Fira_Code({
 });
 
 export const metadata = {
-    title: "Henry's Portfolio",
-    description: "Henry's React projects.",
+    title: "Henry Hong",
+    description: "Henry's portfolio.",
 };
 
 export default function RootLayout({ children }) {
