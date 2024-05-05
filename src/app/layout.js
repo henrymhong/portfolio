@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
             <body
                 className={
                     `${inter.variable} ${chakra.variable} ${fira.variable}` +
-                    " bg-black"
+                    " bg-slate-900"
                 }
             >
                 {children}
