@@ -6,8 +6,8 @@ export default function Home() {
     return (
         <main className="lg:flex min-w-screen w-full min-h-screen h-full bg-gradient-to-br from-slate-900 to-black overflow-clip">
             {/* Left side */}
-            <div className="flex lg:justify-end lg:top-0 lg:align-top w-screen lg:h-screen lg:sticky">
-                <div className="flex flex-col max-w-md pt-16 pb-3 px-8 md:px-14 space-y-4 text-slate-100 font-inter animate-slideRight lg:animate-slideUp">
+            <div className="flex w-full lg:justify-end lg:top-0 lg:align-top lg:h-screen lg:sticky">
+                <div className="flex flex-col max-w-md pt-16 pb-3 px-8 md:px-20 space-y-4 text-slate-100 font-inter animate-slideRight lg:animate-slideUp">
                     {/* Introduction/name */}
                     <div className="text-xl font-semibold">Hi, I am</div>
                     <div className="text-4xl font-extrabold bg-gradient-to-r from-orange-700 via-blue-500 to-green-400 text-transparent bg-clip-text animate-text pb-2">
@@ -45,6 +45,8 @@ export default function Home() {
                         </a>
                     </div>
                 </div>
+                {/* Spacer div to shrink in LG and above breakpoints */}
+                <div className="flex-shrink w-32 hidden lg:flex">Test</div>
                 {/* PFP for smaller than LG breakpoint*/}
                 <div className="w-0 lg:hidden sm:flex justify-center items-center flex-grow sm:mr-8 md:mr-14 pt-8 animate-slideUpOut sm:animate-slideDown">
                     <div>
@@ -59,7 +61,7 @@ export default function Home() {
                 </div>
             </div>
             {/* Right side */}
-            <div className="flex w-screen">
+            <div className="flex w-full">
                 <div className="flex flex-col px-8 md:px-14 lg:px-0 lg:pr-20 pt-5 lg:pt-16 lg:max-w-xl text-slate-100 font-inter text-2xl animate-slideLeft lg:animate-slideDown">
                     <div className="">
                         Projects<div></div>
