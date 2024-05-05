@@ -108,7 +108,7 @@ export default function Home() {
                                         {project.tools.map((item, index) => {
                                             return (
                                                 <div
-                                                    className="border-2 border-sky-950 bg-opacity-50 rounded-xl p-1.5 mr-2 mb-1.5 bg-transparent bg-sky-700 text-sky-300"
+                                                    className="border-2 border-sky-950 rounded-xl p-1.5 mr-2 mb-1.5 bg-sky-700/5 text-sky-300"
                                                     key={index}
                                                 >
                                                     {item}
